@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Заняття №3::Тема – HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Домашнє завдання: HTML</h1>
+    <div class="infotable">
+        <h2>Таблиця</h2>
+        <table>
+            <tr>
+                <th>Ім'я</th>
+                <th>Прізвище</th>
+                <th>Телефон</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>Сергій</td>
+                <td>Онищак</td>
+                <td>0934615985</td>
+                <td>seron@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Марина</td>
+                <td>Ладна</td>
+                <td>0934156932</td>
+                <td>ladnamarina@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Юра</td>
+                <td>Грот</td>
+                <td>0931546893</td>
+                <td>grotyuriy@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Олександра</td>
+                <td>Бокало</td>
+                <td>0937854693</td>
+                <td>sashok@gmail.com</td>
+            </tr>
+        </table>
+    </div>
+    <form method="GET">
+        <h2>Особисті дані</h2>
+        <p class="infoplace"><input type="text" name="infoname" placeholder="Введіть ваше ім'я"></p>
+        <p class="infoplace"><input type="text" name="infosurname" placeholder="Введіть ваше прізвище"></p>
+        <div>
+            <h2>Яка ваша стать?</h2>
+            <p><label for="male">
+                <input type="radio" name="gender" id="male" value="М" checked>М</label>
+            </p>
+            <p><label for="female">
+                <input type="radio" name="gender" id="female" value="Ж">Ж</label>
+            </p>
+        </div>
+        <h2>Чекаємо на ваші питання</h2>
+        <p class="question">
+            <textarea name="question" rows="5" cols="45" placeholder="Напишіть своє питання"></textarea>
+        </p>
+        <div>
+            <select name="city" id="city">
+                <option value="приклад" selected disabled>Виберіть місто</option>
+                <option value="Львів">Львів</option>
+                <option value="Київ">Київ</option>
+                <option value="Одеса">Одеса</option>
+            </select>
+        </div>
+        <h2>Виберіть мову</h2>
+        <div>
+            <p><input type="checkbox" name="мова" id="ua">
+                <label name="language" for="ua">Українська</label>
+            </p>
+            <p> <input type="checkbox" name="мова" id=" rus">
+                <label name="language" for="rus">Росский</label>
+
+            </p>
+            <p> <input type="checkbox" name="мова" id="eng">
+                <label name="language" for="eng">English</label>
+
+            </p>
+        </div>
+        <p class="buttom">
+            <input type="submit" value="відправити">
+        </p>
+    </form>
+</body>
+
+</html>
