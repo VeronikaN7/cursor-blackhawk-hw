@@ -99,8 +99,8 @@ input.headcheckbox:checked + label:before {
 
 /*input search*/
 .searchline{
-    width: 200px;
-    margin: 0 25px ;
+    width: 90%;
+    margin: 0 20px ;
     padding: 10px 5px 10px 30px;
     background: rgb(87, 84, 84)  left 5px center url(./icon/search.png) no-repeat;
     border: none;
