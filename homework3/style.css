@@ -4,11 +4,6 @@ body{
     color: rgba(255, 255, 255, 0.719);
     font-family: Arial, Helvetica, sans-seri;
 }
-* {
-    padding: 0;
-    margin: 0;
-    border: 0;
-}
 h1{
     text-align: center;
 }
@@ -19,23 +14,24 @@ table{
     border: 1px solid rgba(255, 255, 255, 0.315);
     border-radius: 5px;
     table-layout: fixed;
-    overflow: hidden;
+    
     margin: 60px 50px;
     width: 60%;
 }
 
 th{
-    height: 30px;
+    height: 45px;
     text-align: left;
-    padding: 15px 10px;
+    padding-left: 15px;
    
     
 }
 td{
+    padding: 12px 15px 12px 15px;
     text-align: left;
-    padding: 15px 10px;
     border-top: 1px solid rgba(255, 255, 255, 0.438);
     width: 50%;
+    
 
    
 }
@@ -103,21 +99,23 @@ input.headcheckbox:checked + label:before {
 
 /*input search*/
 .searchline{
-    margin-left: 80px;
-    padding-left: 5px;
+    margin:2px 2px 2px 60px;
+    padding: 10px 5px;
     background-color : rgb(87, 84, 84);
     border: none;
     border-radius: 5px;
-    height: 30px;   
+     
 }
 
  /*icons*/
  img{
-    position: relative;
-    top: 5px;
-    width: 25px;
-    height: 25px;
+    width: 15px;
     margin-right: 5px;
+    
+    
+    
+    
+    
  }
  
 
