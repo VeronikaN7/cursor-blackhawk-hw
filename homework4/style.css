@@ -1,0 +1,284 @@
+html,
+body{
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    color: #FFFFFF;
+    background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%),url(./image/background.png), #C4C4C4;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+
+}
+/*
+*{
+    box-sizing: border-box;
+}
+*/
+.header-page{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    z-index: 10;
+    padding-top: 17px
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    
+}
+
+.title-page{
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.page-name{
+    font-weight: bold;
+    line-height: 22px;
+    margin-left: 10px;   
+}
+.menu-page-element{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+     
+}
+.menu-page-items{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: white;
+    margin: 0 7px;
+    cursor: pointer;
+}
+.menu-page-items:hover{
+    color: rgb(75, 1, 17);
+    text-decoration: underline rgb(75, 1, 17);
+    
+}
+.language-section{
+    display: flex;
+    align-items: center;
+    padding-right: 100px;
+    
+    
+}
+.arrow{
+    padding-right:15px;
+}
+.usa-flag{
+    padding-right:10px;
+}
+
+
+.button-login{
+    width: 100px;
+    padding: 12px 5px;/*
+    margin-right: 100px;*/
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    color: #FFFFFF ;
+    border-radius: 6px;
+    line-height: 17px;
+    text-align: center;
+    cursor: pointer;
+    }
+
+
+.main-area-text{
+    width: 100%;
+    max-width: 580px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+.title-main-text{
+    
+font-weight: bold;
+font-size: 72px;
+line-height: 86px;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+padding-top: 130px;
+}
+.info-text{
+    max-width: 490px;
+    letter-spacing: 0.02em;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    padding: 40px 0;
+    
+}
+
+.button-sign-up{
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    
+    text-align: center;
+    
+   
+    width: 160px;
+    height: 50px;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 6px;
+    color: #ED4C5C;
+
+
+
+
+
+/*
+.header-page{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    padding-top: 42px;
+    padding-bottom: 36px;
+}
+.title-page{
+    width: 172px;
+    height: 29px;
+    margin-left: 165px;
+    top: 55px;
+}
+.cloud{
+    position: absolute;
+    width: 29px;
+    height: 29px;
+    left: 165px;
+    top: 55px;
+}
+.page-name{
+    position: absolute;
+    font-weight: bold;
+    width: 136px;
+    height: 22px;
+    left: 201px;
+    top: 59px;
+}
+
+.menu-page-element{
+display: flex;
+align-items: center;
+margin-right: 320px;
+margin-top: 25px;
+
+
+}
+.menu-page-items{
+font-size: 14px;
+line-height: 17px;
+margin-right: 20px;
+}
+
+.flag-lang{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 1056px;  
+    margin-top: 20px;
+}
+.arrow{
+    width: 24px;
+    height: 24px;
+    margin-left: -5px;  
+}
+.lang{
+ width: 32px;
+height: 22px;
+left: 1099px;
+top: 59px;
+margin-left: 10px;
+font-size: 14px;
+line-height: 17px;
+
+}
+.flag{
+    position: absolute;
+width: 32px;
+height: 32px;
+left: 0px;
+top: 0px;
+}
+
+
+
+
+.button-login{
+    position: absolute;
+width: 100px;
+height: 40px;
+left: 1172px;
+top: 50px;
+
+border: 1px solid #FFFFFF;
+background-color: transparent;
+color: #FFFFFF ;
+box-sizing: border-box;
+border-radius: 6px;
+
+font-size: 14px;
+line-height: 17px;
+
+
+display: flex;
+align-items: center;
+text-align: center;
+cursor: pointer;
+}
+.main-text{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+.title-main-text{
+
+}
+
+
+.info-text{
+
+  
+}
+
+
+
+.button-sign-up{
+    position: absolute;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+    cursor: pointer;
+    
+    text-align: center;
+    display: flex;
+    align-items: center;
+   
+    width: 160px;
+    height: 50px;
+    left: 640px;
+    top: 545px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    color: #ED4C5C;
+}
+*/
