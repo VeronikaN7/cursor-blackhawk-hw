@@ -10,43 +10,42 @@ body{
 
 }
 .container{
-
     width: 100%;
     height: auto;
-    
 }
 
-.app-download{
+.header{
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
     width: 100%;
     height: auto;
     background: #ED4C5C;
     color: #ffffff;
 }
 .left-text{
-    width: 31%;
-
-    margin: 122px 80px 111px 100px;
+    width: 35%;
+    margin: 100px 0;
 }
  .left-text-title{
-   min-width: 445px;
+   max-width: 445px;
     font-size: 2em;
     line-height: 43px;
 }
  .left-text-main{
-    min-width: 445px;
-     font-size: 0.78em;
+    max-width: 445px;
+    font-size: 0.78em;
     line-height: 20px;
     margin-top: 24px;
-    text-align: justify;
+    
 
 }
 .app-download-link{
- display: flex;
- justify-content: space-between;
-margin-top: 40px;
-width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    width: 30%;
 }
 
 .slider{
@@ -56,23 +55,34 @@ width: 30%;
     width: 37%;
     margin-left: 80px;
 }
+
 .slider1{
     z-index: 2;
+    transform: translate(-90%, 0);
+
 }
 .slider2{
-    transform: translate(90%, 0 );
+    transform: translate(83%, 0 );
+    margin-left: 80px
+
 }
 .slider3{
-    transform: translate(-90%, 0 );
+    transform: translate(25%, 0 );
 }
-.contact-us{
+.main{
+    width: 100%;
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
+.main-content{
+    width: 90%;
+    
+}
 .contact-left{
-    width:30%;
+    width:33.5%;
     margin: 0 auto;
-    margin-left: 100px;   
+    
 }
 
 .left-text-main.text{
@@ -82,13 +92,13 @@ width: 30%;
 .contact-right{
  display: flex;
  flex-wrap: wrap;
- margin-top: 117px;
  width:46.18%;
+ margin-top:117px;
 }
 
 .name{
-  
-    width:37%;
+    width: 37.5%;
+    max-width: 255px;
     padding: 21px 0 20px 31px;
     color:#000000;
     font-size: 0.89em;
@@ -99,9 +109,10 @@ width: 30%;
 .surname{
     margin-left: 30px;
 }
-.number,
-.service{
-    width:85%;
+.number
+{
+    width: 86%;
+    max-width: 540px;
     padding: 21px 0 20px 31px;
     margin-top: 24px;
     color:#000000;
@@ -112,34 +123,48 @@ width: 30%;
     
 }
 .service{
-    background: url(./images/arrow.png) no-repeat  95% 50%;
+    width: 92%;
+    max-width: 540px;
+    padding: 21px 0 20px 31px;
+    margin-top: 24px;
+    font-size: 0.89em;
+    line-height: 19px;
+    color:#6e6e6e;
+    border-radius: 6px;
+    border: 1px solid #000000;
+    cursor: pointer;
+    outline: none;
+    -webkit-appearance: none;
+    background: url(./images/arrow.png)  no-repeat 95%;
 }
+
 
 .button-submit{
     width:28%; 
+    max-width: 160px;
     text-align: center;
     padding: 17px 0 16px;
     margin-top: 27px;
-    font-size: 14px;
+    margin-bottom:123px;
+    font-size: 0.78em;
     line-height: 17px;
     text-transform: uppercase;
     color: #FFFFFF;
     background: #ED4C5C;
     border: 1.5px solid #ED4C5C;
     border-radius: 6px;
-
+    cursor:pointer;
 }
 .footer-container{
     width: 100%;
-    background: #FAFAFA  url(./images/secure.png) no-repeat 90% 35%;
-    margin-top: 120px;
+    background: #FAFAFA  url(./images/secure.png) no-repeat 95% 35%;
+    
    
 }
 
 .footer-content{
-    width:75.56%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 0 auto;
     
 }
@@ -150,12 +175,6 @@ width: 30%;
     font-size: 1em;
     line-height: 22px;
     width: 122px;
-}
-.address-title,
-.services,
-.get-in-touch,
-.support{
-margin-right: 40px;
 }
 
 .address-street{
@@ -184,9 +203,6 @@ margin-top: 28px;
     line-height: 19px;
     text-transform: capitalize;
 }
-.get-in-touch{
-    width: 122px;
-}
 .get-in-touch-text{
     font-size: 0.67em;
     line-height: 14px;
@@ -198,6 +214,8 @@ margin-top: 28px;
     margin-top: 11px;
     margin-bottom: 20px;
 }
+
 .mini-icons{
     margin-right: 12px;
+    cursor:pointer;
 }
