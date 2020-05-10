@@ -52,7 +52,7 @@ width: 30%;
 .slider{
     display: flex;
     justify-content: center;
-    text-align: center;
+    align-items: center;
     width: 37%;
     margin-left: 80px;
 }
