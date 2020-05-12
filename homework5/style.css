@@ -9,6 +9,9 @@ body{
     width: 100%;
 
 }
+*{
+    box-sizing: border-box;
+}
 .container{
     width: 100%;
     height: auto;
@@ -78,8 +81,8 @@ body{
 }
 
 .contact-left{
-    width:36%;
-  margin-left: 140px;
+    width:35%;
+  margin-left: 100px;
     
 }
 
@@ -99,7 +102,7 @@ body{
 }
 
 .name{
-    width: 36%;
+    width: 39.5%;
     max-width: 255px;
     padding: 20px 20px;
     margin-top: 117px;
@@ -134,7 +137,6 @@ body{
     line-height: 19px;
     color:#6e6e6e;
     border-radius: 6px;
-    box-sizing: content-box;
     border: 1px solid #000000;
     cursor: pointer;
     outline: none;
