@@ -13,6 +13,8 @@ font-family: "Avenir", sans-serif ;
 background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
 }
 
+
+
 .h1,h2,h3{
     font-family: "Helvetica", sans-serif ;
   
@@ -25,16 +27,22 @@ background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
     display: flex;
     justify-content: center;
     
+ 
+
+    
+    
 }
 .header-container{
-    width:88%;
+    width:82%;
     max-width: 1248px;
     height: 754px;
     margin-top: 50px;
+    margin-left: 50px;
     background: url(./images/image1.png) no-repeat 100% 100%;
     position: absolute;
     z-index: 1;
 }
+
 .menu-line{
     width: 100%;
     display: flex;
@@ -67,7 +75,7 @@ background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-right: 400px;
+    margin-right: 300px;
     width: 30%;
     line-height: 26px;
     color: #4B5D68;
@@ -117,7 +125,7 @@ position: relative;
     z-index: 2;
 }
 .head-text{
-width:59% ;
+width:52% ;
 font-weight: 500;
 font-size: 1.125em;
 line-height: 29px;
