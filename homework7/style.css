@@ -31,6 +31,7 @@ h1,h2,h3{
     justify-content: space-between;
     width: 9.8%;
     min-height:853px;
+    max-width: 160px;
     margin: 24px 33.4px;
     padding-bottom: 40px;
     padding-top: 44.5px;
@@ -55,6 +56,7 @@ h1,h2,h3{
     justify-content: space-between;
     height: 49%;
     margin-bottom: 130px;
+    cursor: pointer;
 }
 /*MAIN-SECTION*/
 .main-section  {
@@ -92,11 +94,10 @@ border-radius: 14px;
 }
 .Josh{
     position: relative;
-    margin-left: 340px;
+    left: 340px;
 }
 /*MY COURSE*/
 .my-course{
-    position: relative;
     width: 100%;
     margin-top: 24.09px;
 display: flex;
@@ -110,18 +111,24 @@ justify-content: space-between;
     justify-content: space-between;
     background: #F5F5F7;
     border-radius: 14px;
+    position: relative;
+}
+.arrows-left-right{
+    cursor: pointer;
 }
 .white-background{
     margin: 8px;
 }
 .flag-spain{
     position: absolute;
-    margin-left: 24.5px;
+    top: 24px;
+    left: 24px;
 }
 .my-course-text{
     margin-right: 40px;
 }
 .my-course-text-p{
+position: relative;
 font-weight: normal;
 font-size:0.9em;
 line-height: 15px;
@@ -129,7 +136,8 @@ line-height: 15px;
 }
 .ellipse{
     position: absolute;
-    margin-left: 282px;
+    left: -7px;
+    top: -12px;
 }
 .button-continue{
     font-weight: bold;
@@ -177,14 +185,15 @@ opacity: 0.3;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 16px;
+    position: relative;
 }
 .apps-icon-figma{
     position: absolute;
-    margin-left: 30px;
+    left: 30px;
 }
 .apps-icon{
-    position: absolute;
-    margin-left: 25px;
+  position: absolute;
+    left: 25px;
 }
 .apps-text{
   width: 24.5%; 
@@ -249,13 +258,15 @@ opacity: 0.3;
 background: #F5F5F7 url(./images/search.png) no-repeat 5% 50%;
 border-radius: 8px;
 border: none;
-padding: 12px 30px;
+padding: 12px 32px;
 }
 .bell{
     margin-left: 36px;
+    cursor: pointer;
 }
 .profile{
     margin-left: 20px;
+    cursor: pointer;
 }
 
 /*STATS BOXES*/
@@ -318,6 +329,9 @@ line-height: 102px;
     padding-left: 16px;
     padding-bottom: 8px;
 }
+
+
+
 .schedule-statistic{
     width:110%;
 }
@@ -351,4 +365,5 @@ line-height: 102px;
     font-weight: bold;
     font-size: 0.8125em;
     line-height: 15px;
+    cursor: pointer;
 }
