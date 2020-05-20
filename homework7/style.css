@@ -1,0 +1,354 @@
+*{
+    box-sizing: border-box;
+}
+body{
+width:100% ;
+min-width: 1100px;
+height:100%;
+min-height: 600px;
+font-size: 16px;
+font-family: 'Roboto', sans-serif;
+font-weight: normal;
+color: #000000;
+
+}
+.wrapper{
+    display: flex;
+}
+
+h1,h2,h3{
+    font-family: 'Baloo Bhai 2', sans-serif;  
+}
+
+/*MENU*/
+.menu{
+    position: relative;
+    background: #000000;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 9.8%;
+    min-height:853px;
+    margin: 24px 33.4px;
+    padding-bottom: 40px;
+    padding-top: 44.5px;
+    z-index: 2;
+    
+}
+.shadow-background{
+    position: absolute;
+    width: 20%;
+    height: 95%;
+    margin-left: 60px;
+    background: #000000;
+    opacity: 0.7;
+    filter: blur(25px);
+    border-radius: 15px;
+    z-index: 0;
+}
+.menu-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 49%;
+    margin-bottom: 130px;
+}
+/*MAIN-SECTION*/
+.main-section  {
+    width: 46%;
+    margin-left:35px;
+    
+    
+}
+.header{
+ margin-top: 24px;
+ height: 21.25%;
+ position: relative;
+}
+
+.header-border{
+    position: absolute;
+    width: 100%;
+    margin-top: 31.35px;
+    display: flex;
+   max-height: 160px;
+background: #F5F5F7 ;
+border-radius: 14px;
+}
+.header-text{
+    margin: 46.42px 31.5px;
+}
+.header-p{
+    line-height: 24px;
+   
+}
+.name-boy{
+    font-size: 2.25em;
+    line-height: 57px;
+   
+}
+.Josh{
+    position: relative;
+    margin-left: 340px;
+}
+/*MY COURSE*/
+.my-course{
+    position: relative;
+    width: 100%;
+    margin-top: 24.09px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.my-course-info{
+    width: 80.7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #F5F5F7;
+    border-radius: 14px;
+}
+.white-background{
+    margin: 8px;
+}
+.flag-spain{
+    position: absolute;
+    margin-left: 24.5px;
+}
+.my-course-text{
+    margin-right: 40px;
+}
+.my-course-text-p{
+font-weight: normal;
+font-size:0.9em;
+line-height: 15px;
+
+}
+.ellipse{
+    position: absolute;
+    margin-left: 250px;
+}
+.button-continue{
+    font-weight: bold;
+    font-style: normal;
+    font-size: 0.8125em;
+    line-height: 15px;
+    padding: 12.55px  33.5px 12.45px ;
+    margin-right: 22px;
+    margin-left: 28px;
+border: none;
+color: #FFFFFF;
+background: #000000;
+border-radius: 8px;
+cursor: pointer;
+}
+
+/*COURSES*/
+.courses{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 42px;
+}
+.courses-title{
+    font-size: 1.5em;
+}
+.filter{
+    display: flex;
+    justify-content: flex-start;
+    margin: 26px 0 10px;
+    line-height: 26px;
+}
+.filter-items{
+    margin-right: 31px;
+}
+.filter-items:not(:first-child){
+color: #000000;
+opacity: 0.3;
+}
+.apps{
+    width: 100%;
+    background: #F5F5F7;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.apps-icon-figma{
+    position: absolute;
+    margin-left: 30px;
+}
+.apps-icon{
+    position: absolute;
+    margin-left: 25px;
+}
+.apps-text{
+  width: 24.5%; 
+}
+.time{
+    display:flex ;
+    align-items: center;
+   margin-left: 40px;
+}
+.image-time{
+   margin-right: 8px;
+}
+.rating{
+    display: flex;
+    align-items: center;
+   margin-left: 25px;
+}
+.image-fire{
+  margin-right: 10px; 
+}
+.apps-title{
+    line-height: 26px;
+}
+.apps-p{
+    font-size: 0.8125em;
+    line-height: 15px;
+}
+.button-view-course{
+    font-weight: bold;
+    font-size: 0.8125em;
+    line-height: 15px;
+    padding: 12.5px  22px  ;
+    margin-right: 24px;
+    margin-left: 31.6px;
+    border: none;
+    color: #FFFFFF;
+    background: #000000;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+
+.aside-section{
+    width: 31%;
+    margin-top: 55.25px;
+    margin-left: 63.9px;
+   
+   
+}
+
+/*NAVIGATION*/
+.navigation{
+    width: 100%;
+    margin-bottom:23.67px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.input-search{
+    width: 68.18%;
+background: #F5F5F7 url(./images/search.png) no-repeat 5% 50%;
+border-radius: 8px;
+border: none;
+padding: 12px 30px;
+}
+.bell{
+    margin-left: 36px;
+}
+.profile{
+    margin-left: 20px;
+}
+
+/*STATS BOXES*/
+.stats-boxes{
+    width: 100%;
+    display: flex; 
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.both{
+    width: 48%;
+    background: #F5F5F7;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.stat-box-number{
+    font-size: 4em;
+line-height: 102px;
+}
+.stat-box-text{
+    width: 41%;
+    line-height: 24px;
+}
+
+/*STATISTICS SECTION*/
+.statistics-section{
+    width: 100%;
+}   
+.filter-section{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    line-height: 26px;
+    margin-top:16.2px ;
+    margin-bottom:32px ;
+}
+.statisctic-title{
+    font-size: 1.5em;
+    line-height: 38px;
+}
+.filter-section h3:not(:first-child){
+    margin-left: 24px;
+    color: #000000;
+    opacity: 0.3;
+}
+.period{
+    margin-left: auto;
+    background: #F5F5F7 url(./images/arrow-down.png) no-repeat 80% 50%;
+    border:none ;
+    cursor: pointer;
+    -webkit-appearance: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 0.8125em;
+    line-height: 15px;
+    padding-top: 9px ;
+    padding-right: 28px;
+    padding-left: 16px;
+    padding-bottom: 8px;
+}
+.schedule-statistic{
+    width:110%;
+}
+ /*GO PREMIUM BANNER*/
+.premium-banner{
+    width: 100%;
+    margin-top: 49px;
+    background: #F5F5F7;
+    border-radius: 14px;
+    padding: 24px 48px 16px 23px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-content h2{
+    font-size: 1.5em;
+    line-height: 38px;
+}
+.banner-content p{
+    line-height: 24px;
+    margin-bottom: 24px;
+    margin-right:40px;
+}
+
+.button-go-premium{
+    background: #000000;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    padding: 12px 23px;
+    font-weight: bold;
+    font-size: 0.8125em;
+    line-height: 15px;
+}
