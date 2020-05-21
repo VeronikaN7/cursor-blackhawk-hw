@@ -152,7 +152,17 @@ color: #FFFFFF;
 background: #000000;
 border-radius: 8px;
 cursor: pointer;
+outline: none;
 }
+
+.button:hover{
+background:  #00000096;
+}
+.button:active{
+    background:  #00000096;
+    border: 1px solid #000000;
+    color: coral;
+    }
 
 /*COURSES*/
 .courses{
@@ -328,6 +338,7 @@ line-height: 102px;
     padding-right: 28px;
     padding-left: 16px;
     padding-bottom: 8px;
+    outline: none;
 }
 
 
