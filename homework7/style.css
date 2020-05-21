@@ -162,6 +162,7 @@ background:  #00000096;
     background:  #00000096;
     border: 1px solid #000000;
     color: coral;
+border: none;
     }
 
 /*COURSES*/
@@ -239,6 +240,7 @@ opacity: 0.3;
     margin-right: 24px;
     margin-left: 31.6px;
     border: none;
+outline: none;
     color: #FFFFFF;
     background: #000000;
     border-radius: 8px;
@@ -371,6 +373,7 @@ line-height: 102px;
     background: #000000;
     border-radius: 8px;
     border: none;
+outline: none;
     color: #FFFFFF;
     padding: 12px 23px;
     font-weight: bold;
