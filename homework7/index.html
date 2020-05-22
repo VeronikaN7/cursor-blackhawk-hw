@@ -8,28 +8,29 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@800&display=swap" rel="stylesheet">
-    <link href="https://fonts.google.com/specimen/Roboto?selection.family=Roboto:wght@400;500;900">
+    <link href="https://fonts.google.com/specimen/Roboto?selection.family=Roboto:wght@400;500;900" rel="stylesheet">
 
 </head>
 
 <body>
     <div class="wrapper">
 
-        <menu class="menu">
+        <div class="menu">
             <div class="shadow-background"></div>
             <div class="menu-logo">
-                <img src="./images/F.png" alt="logo-page-letter-F" />
+               <a href="#"><img src="./images/F.png" alt="logo-page-letter-F" /></a> 
             </div>
-            <div class="menu-icons">
-                <img src="./images/house.png" alt="icon-house" />
-                <img src="./images/hat.png" alt="icon-hat" />
-                <img src="./images/man.png" alt="icon-man" />
-                <img src="./images/letter.png" alt="icon-letter" />
-                <img src="./images/settings.png" alt="icon-setings" /></div>
+            <ul class="menu-icons">
+               <li><a href="#"><img src="./images/house.png" alt="icon-house" /></a></li> 
+               <li><a href="#"><img src="./images/hat.png" alt="icon-hat" /></a></li>
+               <li><a href="#"><img src="./images/man.png" alt="icon-man" /></a>/li> 
+               <li><a href="#"><img src="./images/letter.png" alt="icon-letter" /></a></li> 
+               <li><a href="#"><img src="./images/settings.png" alt="icon-setings" /></a></li> 
+            </ul>
             <div class="menu-exit">
-                <img src="./images/exit.png" alt="icon-exit" />
+               <a href="#"><img src="./images/exit.png" alt="icon-exit" /></a>
             </div>
-        </menu>
+        </div>
 
         <main class="main-section">
             <div class="header">
@@ -52,22 +53,25 @@
                     <p class="my-course-text-p">83%<img src="./images/Ellipse.png" alt="#" class="ellipse" /></p>
                     <button type="button" name="button-continue" class="button-continue button">Continue</button>
                 </div>
-                <img src="./images/Arrows.png" alt="arrows" class="arrows-left-right"/>
+                <div class="arrows-left-right">
+                    <div class="circle"><img  src="./images/arrow.png" alt="arrow-left" class="arrow"/></div>
+                    <div class="circle"><img src="./images/arrow.png" alt="arrow-right" class="arrow-right"/></div>
+                </div>
             </section>
             <section class="courses">
                 <h2 class="courses-title">Courses</h2>
                 <ul class="filter">
                     <li class="filter-items">
-                        <h3>All Courses</h3>
+                       <a href="#"><h3>All Courses</h3></a> 
                     </li>
                     <li class="filter-items">
-                        <h3>The Newest</h3>
+                      <a href=""><h3>The Newest</h3></a>  
                     </li>
                     <li class="filter-items">
-                        <h3>Top Rated </h3>
+                        <a href=""><h3>Top Rated </h3></a> 
                     </li>
                     <li class="filter-items">
-                        <h3>Most Popular</h3>
+                        <a href=""><h3>Most Popular</h3></a>  
                     </li>
                 </ul>
                 <div class="apps">
@@ -160,11 +164,14 @@
         </main>
 
         <aside class="aside-section">
-            <section class="navigation">
+            <div class="navigation">
                 <input type="text" name="search" class="input-search" />
-                <img src="./images/bell.png" alt="bell" class="bell">
+                <div class="bell-message">
+                    <img src="./images/bell.png" alt="bell" class="bell"/>
+                    <div class="circle-message">1</div>
+                </div>
                 <img src="./images/Profile.png" alt="photo-profile" class="profile">
-            </section>
+            </div>
             <section class="stats-boxes">
                 <div class="stats-boxes1 both">
                     <h2 class="stat-box-number">11</h2>
@@ -178,8 +185,8 @@
             <section class="statistics-section">
                 <h2 class="statisctic-title">Your statistics</h2>
                 <div class="filter-section">
-                    <h3>Learning Hours</h3>
-                    <h3>My Courses</h3>
+                   <a href="#"><h3>Learning Hours</h3></a> 
+                   <a href="#"><h3>My Courses</h3></a> 
                     <select name="period" class="period">
                         <option value="Dayly">Dayly</option>
                         <option value="Weekly" selected>Weekly</option>

@@ -19,6 +19,9 @@ color: #000000;
 h1,h2,h3{
     font-family: 'Baloo Bhai 2', sans-serif;  
 }
+a{
+    color: #000000;
+}
 
 /*MENU*/
 .menu{
@@ -55,6 +58,7 @@ h1,h2,h3{
     align-items: center;
     justify-content: space-between;
     height: 49%;
+    width: 19.6%;
     margin-bottom: 130px;
     cursor: pointer;
 }
@@ -115,7 +119,39 @@ justify-content: space-between;
 }
 .arrows-left-right{
     cursor: pointer;
+    width: 15.15%;
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
+.arrow{
+        position: absolute;
+       top: 11px;
+       left: 11px;
+}
+.arrow-right{
+    position: absolute;
+    top: 11px;
+    left: 11px;
+    transform: rotate(-180deg);
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 100px;
+    position: relative;
+}
+.circle:hover{
+    background: lightblue;
+}
+.circle:active{
+    background: rgb(16, 112, 145);
+}
+
 .white-background{
     margin: 8px;
 }
@@ -128,10 +164,10 @@ justify-content: space-between;
     margin-right: 40px;
 }
 .my-course-text-p{
-position: relative;
-font-weight: normal;
-font-size:0.9em;
-line-height: 15px;
+    position: relative;
+    font-weight: normal;
+    font-size:0.9em;
+    line-height: 15px;
 
 }
 .ellipse{
@@ -147,23 +183,23 @@ line-height: 15px;
     padding: 12.55px  33.5px 12.45px ;
     margin-right: 22px;
     margin-left: 28px;
-border: none;
-color: #FFFFFF;
-background: #000000;
-border-radius: 8px;
-cursor: pointer;
-outline: none;
+    border: none;
+    color: #FFFFFF;
+    background: #000000;
+    border-radius: 8px;
+    cursor: pointer;
+    outline: none;
 }
 
 .button:hover{
-background:  #00000096;
+    background:  #00000096;
 }
 .button:active{
     background:  #00000096;
     border: 1px solid #000000;
     color: coral;
-border: none;
-    }
+    border: none;
+ }
 
 /*COURSES*/
 .courses{
@@ -240,7 +276,7 @@ opacity: 0.3;
     margin-right: 24px;
     margin-left: 31.6px;
     border: none;
-outline: none;
+    outline: none;
     color: #FFFFFF;
     background: #000000;
     border-radius: 8px;
@@ -272,9 +308,29 @@ border-radius: 8px;
 border: none;
 padding: 12px 32px;
 }
-.bell{
-    margin-left: 36px;
+.bell-message{
+    width: 6.9%;
+    margin-left: 35px;
     cursor: pointer;
+    position: relative;
+}
+.circle-message{
+position: absolute;
+width: 15px;
+height: 15px;
+background-image:url(./images/ellipse-bell.png) ;
+background: #F45B5B ;
+border-radius: 50%;
+color: white;
+font-size: 0.625rem;
+text-align: center;
+padding-top: 2px;
+top: -5px;
+left: 14px;  
+}
+
+.circle-message:hover{
+    background: rgb(151, 52, 52) ;
 }
 .profile{
     margin-left: 20px;
@@ -321,7 +377,7 @@ line-height: 102px;
     font-size: 1.5em;
     line-height: 38px;
 }
-.filter-section h3:not(:first-child){
+.filter-section a:not(:first-child){
     margin-left: 24px;
     color: #000000;
     opacity: 0.3;
