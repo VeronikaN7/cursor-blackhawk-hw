@@ -76,6 +76,8 @@ margin: 0;
     border: none;
     outline: none;
     cursor: pointer;
+    position: absolute;
+    left: 36px;
   }
   .button:hover{
       border: none;
