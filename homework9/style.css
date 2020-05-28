@@ -178,6 +178,9 @@ padding-top: 217px;
     margin-top: 34px;
     margin-right: 48px;
 }
+.basket{
+    display: none;
+}
 .bell{
     position: absolute;
     top: 73px;

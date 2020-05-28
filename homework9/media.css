@@ -1,5 +1,5 @@
 
-@media (max-width:720px){
+@media (min-width:360px) and (max-width:720px){
    
 .header{
     background: #F4F6F9;
@@ -57,7 +57,7 @@
     
     
 }
-   .football-schedule{
+.football-schedule{
     max-width: 300px;
     left: -25px;
     top: 50px;
@@ -93,7 +93,15 @@
     margin-top: 32px;
     margin-left: 36px;
 }
-
+.enter-app{
+    display: none;
+}
+.basket{
+    position: absolute;
+    display: inline-block;
+    top: 330px;
+    left: 250px
+}
 .section-3{
     width: 100%;
     max-width: 720px;
