@@ -91,7 +91,7 @@
 .phone{
     max-height: 201px;
     margin-top: 32px;
-    margin-left: 36px;
+    margin-right: 10px;
 }
 .enter-app{
     display: none;
@@ -406,14 +406,14 @@ margin-bottom: 30px;
 }
 }
 
-@media (min-width:1440px){
+@media (min-width:1441px){
     
     .section-2{
         background-repeat: no-repeat;
         background-position: right;
     }
     .phone{
-        margin-right: 26px;
+        margin-right: 20px;
     }
     .users-say{
         justify-content:space-around;
