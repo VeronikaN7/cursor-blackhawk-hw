@@ -8,7 +8,7 @@ body{
 }
 .wrapper{
     width: 100%;
-    max-width: 1440px;
+    
     
 }
 h2{
@@ -84,7 +84,7 @@ margin-bottom: 50px;
 
 /*Section1*/
 .section-1{
-    max-width: 1440px;
+    
     min-height: 490px;
     background: linear-gradient(270deg, rgb(255, 255, 255) 10%, rgba(255, 255, 255, 0) 67.14%),url("./images/football-player.png") no-repeat left;
     background-size: 58%;
@@ -154,7 +154,7 @@ margin-bottom: 50px;
 
  /*Section 2*/
 .section-2{
-    max-width: 1440px;
+   
     min-height: 716px;
     background: url(./images/ellipses.png);
 }
@@ -176,7 +176,7 @@ padding-top: 217px;
     min-height: 513px;
     position: relative;
     margin-top: 34px;
-    margin-right: 48px;
+    margin-right: 25px;
 }
 .basket{
     display: none;
@@ -194,11 +194,11 @@ padding-top: 217px;
 .dot{
     position: absolute;
     bottom: 112px;
-    left: -35px;
+    left: -80px;
 }
  /*Section 3*/
  .section-3{
-     max-width: 1440px;
+     
      min-height: 735px;
     background: #00ADEE url(./images/blue-background.png) no-repeat;
     color: #FFFFFF;
@@ -242,7 +242,7 @@ padding-top: 217px;
 
  /*Section 4*/
  .section-4{
-    max-width: 1440px;
+    
     min-height: 431px;
     position: relative;
  }
@@ -263,7 +263,7 @@ padding-top: 217px;
      background:linear-gradient(90deg, #FFFFFF , rgba(255, 255, 255, 0) 30%);
  }
  .section-4-content{
-    max-width: 1440px;
+    
     padding-top: 62px;
     
  }
@@ -359,7 +359,6 @@ padding-top: 217px;
 
 /*Section 5*/
 .section-5{
-    max-width: 1440px;
     min-height: 278px;
     background: #FAFAFA;
 }
@@ -380,7 +379,6 @@ padding-top: 217px;
 
 /*Section 6*/
 .section-6{
-    max-width: 1440px;
     min-height: 480px;
     background: #FFFFFF url(./images/football-end.png) no-repeat;
 }
@@ -401,7 +399,7 @@ padding-top: 217px;
 
 /*Footer*/
 .footer{
-    max-width: 1440px;
+    
     min-height: 127px;
     background: #00ADEE;
 }
