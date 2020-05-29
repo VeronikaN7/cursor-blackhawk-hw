@@ -175,7 +175,7 @@ padding-top: 217px;
     min-height: 513px;
     position: relative;
     margin-top: 34px;
-    margin-right: 10px;
+    margin-right: 49px;
 }
 .basket{
     display: none;
@@ -381,14 +381,14 @@ padding-top: 217px;
     background: #FFFFFF url(./images/football-end.png) no-repeat;
 }
 .section-6-content{
-    width: 47%;
+    width: 45%;
     min-height:285px;
     margin-left:auto;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
-    padding: 105px 0 92px;
+    padding-top: 75px;
 }
 .section-6-text{
     max-width: 535px;

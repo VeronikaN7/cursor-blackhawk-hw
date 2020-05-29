@@ -26,7 +26,7 @@
    
 
 .header-button{
-    max-width: 320px;
+    width: 100%;
     justify-content: center;
 }
 
@@ -59,13 +59,13 @@
 }
 .football-schedule{
     max-width: 300px;
-    left: -25px;
+    left: -53px;
     top: 50px;
 }
 .football-video{
     max-width: 247px;
     top:180px;
-   left: 90px;
+   left: 67px;
 }
 
 .section-2{
@@ -83,7 +83,6 @@
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    padding: 0 5px;
 }
 .interface-title{
     padding-top: 62px;
@@ -100,7 +99,14 @@
     position: absolute;
     display: inline-block;
     top: 330px;
-    left: 250px
+    left: 215px
+}
+.bell{
+    position: absolute;
+    left: 2px;
+}
+.dot{
+    display: none;
 }
 .section-3{
     width: 100%;
@@ -173,9 +179,9 @@ margin-bottom: 30px;
     min-height: 700px;
 }
 .section-6-content{
-    padding: 19px 0;
-    align-items: center;
     text-align: center;
+    margin: 0 auto;
+    width: 100%;
 }
 
 .section-6-text{
@@ -266,20 +272,20 @@ margin-bottom: 30px;
 }
 .football-schedule{
     max-width: 300px;
-    left: -25px;
+    left: -140px;
     top: 50px;
 }
 .football-video{
     max-width: 247px;
     top:180px;
-   left: 90px;
+   left: 0;
 }
 
 .section-2{
     max-width: 720px;
     background: url(./images/ellipses.png) no-repeat; 
     background-size: auto 56%;
-    background-position: 115% bottom;
+    background-position: 98% bottom;
     overflow: hidden;
     min-height: 631px;
     
@@ -289,7 +295,6 @@ margin-bottom: 30px;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    padding: 0 5px;
 }
 .interface-title{
     padding-top: 62px;
@@ -297,10 +302,13 @@ margin-bottom: 30px;
 .phone{
     max-height: 201px;
     margin-top: 32px;
-    margin-left: 17px;
+    margin-left: 35px;
 }
 .enter-app{
     display: none;
+}
+.bell{
+    left: 23px;
 }
 .basket{
     position: absolute;
@@ -314,6 +322,9 @@ margin-bottom: 30px;
     min-height:1775px;
     background: #FAFAFA;
     color: #4F4F4F;
+}
+.dot{
+    display: none;
 }
 .feature{
     color: black;
@@ -380,8 +391,8 @@ margin-bottom: 30px;
 }
 .section-6-content{
     padding: 19px 0;
-    align-items: center;
     text-align: center;
+    margin: 0 auto;
 }
 
 .section-6-text{
