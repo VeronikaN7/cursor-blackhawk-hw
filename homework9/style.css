@@ -31,7 +31,7 @@ p{
 .header-content{
     width: 76%;
     max-height: 665px;
-    width: 100%;
+    width: 76%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -382,7 +382,7 @@ padding-top: 217px;
     background: #FFFFFF url(./images/football-end.png) no-repeat;
 }
 .section-6-content{
-    max-width:720px;
+    width: 47%;
     min-height:285px;
     margin-left:auto;
     display: flex;
