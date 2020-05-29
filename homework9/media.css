@@ -176,12 +176,13 @@ margin-bottom: 30px;
     background: #FFFFFF url(./images/football-end.png) no-repeat;
     background-size: 100% auto;
     background-position:center bottom;
-    min-height: 700px;
+    min-height: 720px;
 }
 .section-6-content{
     text-align: center;
     margin: 0 auto;
     width: 100%;
+    padding-top: 25px;
 }
 
 .section-6-text{
