@@ -31,7 +31,6 @@ p{
 .header-content{
     width: 76%;
     max-height: 665px;
-    width: 76%;
     display: flex;
     flex-direction: column;
     justify-content: center;
