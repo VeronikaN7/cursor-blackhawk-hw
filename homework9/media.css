@@ -407,8 +407,15 @@ margin-bottom: 30px;
 }
 
 @media (min-width:1440px){
+    
+    .section-2{
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    .phone{
+        margin-right: 26px;
+    }
     .users-say{
         justify-content:space-between;
-      
     }
 }
