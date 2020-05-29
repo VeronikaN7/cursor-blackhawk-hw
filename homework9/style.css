@@ -263,7 +263,6 @@ padding-top: 217px;
      background:linear-gradient(90deg, #FFFFFF , rgba(255, 255, 255, 0) 30%);
  }
  .section-4-content{
-    
     padding-top: 62px;
     
  }
@@ -317,11 +316,11 @@ padding-top: 217px;
     margin-right: -200px;
 } 
 .ellipse-arrow{
-    min-width: 1237px;
+   width: 90%;
     position: absolute;
     display: flex;
     justify-content: space-between;
-    margin-left: 90px;
+    margin-left: 105px;
     top: 230px;
     z-index: 10;
 }
