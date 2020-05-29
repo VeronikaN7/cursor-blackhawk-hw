@@ -416,6 +416,13 @@ margin-bottom: 30px;
         margin-right: 26px;
     }
     .users-say{
-        justify-content:space-between;
+        justify-content:space-around;
     }
+    
+    .sarah{
+        margin-left: 0; 
+    }
+    .Udoma{
+        margin-right: 0;
+    } 
 }
