@@ -20,7 +20,14 @@ h2{
 p{
     color: #4F4F4F;
 }
-
+a{
+    color: #00ADEE;
+    font-weight: bold;    
+    line-height: 21px;
+}
+button{
+    cursor: pointer;
+}
 
 /*header*/
 .header{
@@ -78,7 +85,7 @@ margin-bottom: 50px;
     display: flex;
     justify-content: space-between;
     max-width: 348px;
-    
+    cursor: pointer;
 }
 
 /*Section1*/
@@ -322,6 +329,7 @@ padding-top: 217px;
     margin-left: 105px;
     top: 230px;
     z-index: 10;
+    cursor: pointer;
 }
 .arrow-right{
     position: absolute;
@@ -341,6 +349,7 @@ padding-top: 217px;
     margin: 0 auto;
     margin-top: 47px; 
     position: relative;
+    cursor: pointer;
 }
 .circle-graident{
     position: absolute;
@@ -373,6 +382,7 @@ padding-top: 217px;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    cursor: pointer;
 }
 
 /*Section 6*/
@@ -439,7 +449,8 @@ padding-top: 217px;
     list-style: none;
 }
 .social-media{
-min-width: 100px;
-display: flex;
-justify-content: space-between;
+    min-width: 100px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
 }
