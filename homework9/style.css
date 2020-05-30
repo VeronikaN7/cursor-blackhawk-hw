@@ -239,7 +239,7 @@ padding-top: 217px;
  .feature-items:not(:nth-child(-n+3)){
      margin-top: 40px;
  }
- li{
+ .feature-li{
      margin-left: 15px;
      list-style: disc;
      line-height: 23px;
@@ -437,7 +437,7 @@ padding-top: 217px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    min-width: 390px;
+    min-width: 360px;
     
 }
 .footer-a{
