@@ -81,7 +81,7 @@
     font-size: 0.9em;
 }
 .slider{
-    margin-left: 0;
+    margin-left: 10px;
 }
 .slider:before{
     right: 27px;
@@ -331,7 +331,7 @@ margin-bottom: 30px;
     margin-left: 5px;
 }
 .slider{
-    margin-left: 0;
+    margin-left: 14px;
 }
 .slider:before{
     right: 27px;
