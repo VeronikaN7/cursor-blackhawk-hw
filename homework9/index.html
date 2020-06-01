@@ -54,10 +54,28 @@
             </div>
         </header>
         <section class="section-1">
-            <div class="section-1-content">
+
                 <div class="football-images">
-                    <img src="./images/football-match.png" alt="football-match-schedule" class="football-schedule">
-                    <img src="./images/football-video.png" alt="football-video" class="football-video">
+                    <div class="schedule">
+                        <div class="schedule-info">
+                        <div class="schedule-text">
+                            <p class="schedule-time">Sat, 12:35pm</p>
+                            <p class="schedule-team">Arsenal v Chelsea</p>
+                            <p class="schedule-type">Friendly Match</p>
+                        </div>
+                        <div class="schedule-img">
+                            <img src="./images/arsenal.svg" alt="logo-arsenal" class="arsenal">
+                            <img src="./images/chelsea.svg" alt="logo-chelsea" class="chelsea">
+                        </div>
+                    </div>
+                        <div class="switch">
+                            <label for="switch" class="label-text">Turn on all match notifications
+                            <input type="checkbox" id="switch">
+                            <span class="slider"></span>
+                        </label>
+                        </div>
+                    </div>
+                    <img src="./images/football-video.svg" alt="football-video" class="football-video">
                 </div>
                 <div class="football-info">
                     <h3 class="football-title">WHAT IT DOES</h3>
@@ -69,7 +87,6 @@
                         Guardian publication.</p>
                     <a href="#">Learn more</a>
                 </div>
-            </div>
         </section>
         <section class="section-2">
             <div class="section-2-content">
@@ -85,10 +102,24 @@
                 </div>
                 <div class="phone">
                     <img src="./images/phone.png" alt="image-cell-phone" class="phone"/>
-                    <img src="./images/bell.png" alt="message-bell" class="bell"/>
-                    <img src="./images/enter.png" alt="enter-in-app" class="enter-app"/>
-                    <img src="./images/dot.png" alt="ellipse" class="dot"/>
-                    <img src="./images/basket.png" alt="basket" class="basket"/>
+                    <div class="dot"></div>
+                    <a href="#">
+                        <div class="empty-ellipse">
+                            <img src="./images/bell.svg" alt="bell" class="bell">
+                            <span class="number-message">7</span>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="empty-ellipse-2">
+                            <img src="./images/enter.svg" alt="enter" class="enter">
+                            <img src="./images/basket.svg" alt="basket" class="basket">
+                            <span class="basket-message">7</span>
+                        </div>
+                    </a>
+                    
+                    
+                        
+                    
                 </div>
             </div>
         </section>
@@ -279,20 +310,16 @@
                             gives me nofications when my favourite team plays.</p>
                     </div>
                 </div>
-                <div class="ellipse-arrow">
-                    <svg class="arrow-right" width="8" height="12" viewBox="0 0 8 12" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M1.4 0L0 1.4L4.6 6L0 10.6L1.4 12L7.4 6L1.4 0Z"
-                            fill="#00ADEE" />
-                    </svg>
-                    <svg class="arrow-left" width="8" height="12" viewBox="0 0 8 12" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M1.4 0L0 1.4L4.6 6L0 10.6L1.4 12L7.4 6L1.4 0Z"
-                            fill="#00ADEE" />
-                    </svg>
-                    <img src="./images/blue-ellipse.png" alt="#" class="ellipse-hidden">
-                    <img src="./images/blue-ellipse.png" alt="#">
+                <div class="control-left">
+                    <div class="left-ellipse">
+                        <div class="arrow-left"></div>
+                    </div>
                 </div>
+                    <div class="control-right">
+                        <div class="right-ellipse">
+                            <div class="arrow-right"></div>
+                        </div>
+                    </div>
                 <div class="gradient-1 gradient"></div>
                 <div class="gradient-2 gradient"></div>
                 <div class="circles">

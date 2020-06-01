@@ -27,6 +27,7 @@ a{
 }
 button{
     cursor: pointer;
+    background: none;
 }
 
 /*header*/
@@ -90,40 +91,139 @@ margin-bottom: 50px;
 
 /*Section1*/
 .section-1{
-    
+    width: 100%;
     min-height: 490px;
     background: linear-gradient(270deg, rgb(255, 255, 255) 10%, rgba(255, 255, 255, 0) 67.14%),url("./images/football-player.png") no-repeat left;
     background-size: 58%;
     position: relative;
     z-index: 0;
-    
-    
-}
-.section-1-content{
-    width: 80%;
-    min-height: 470px;
+
     display: flex;
     flex-direction: row;
     flex-wrap: wrap-reverse;
-    margin: 0 auto;
-    
-
 }
+
 .football-images{
+    width: 50%;
     position: relative;
-    margin-right: auto;
     display: flex;
     flex-wrap: wrap;
 }
-
-.football-schedule{
+.schedule{
+    position: absolute;
+    width: 360px;
+    height: 218.06px;
+    top: 55px;
+    left: 95px;  
+    box-shadow: -22.0416px 23.8785px 48.9814px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    background: #FFFFFF;
+    z-index: 3;
+    box-sizing: border-box;
+}
+.schedule-info{
+    width: 96%;
+    height: 78%;
+    display: flex;
+    align-items: center;
+    
+}
+.schedule-text{
+    height: 90%;
+    width: 42%;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-evenly;
+   margin-left: 15px;
+   font-size: 1em;
+}
+.schedule-time{
+    font-weight: bold;
+    line-height: 22px;
+    color: #4F4F4F;
+    font-size: 1em;
+}
+.schedule-team{
+    font-weight: bold;
+    font-size: 1.125em;
+    line-height: 24px;
+    color: #000000;
+}
+.schedule-type{
+    line-height: 21px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 1em;
+}
+.schedule-img{
+    position: relative;
+    height: 50%;
+    width: 45%;
+}
+.arsenal{
     position: absolute;
     z-index: 3;
-    left: -25px;
-    top: 48px;
+    right: 54px;
 }
+.chelsea{
+    position: absolute;
+    z-index: 6; 
+    right: -20px;  
+}
+.switch{
+    width: 100%;
+    max-height: 49px;
+    background: #EEEEEE;
+    border-radius: 0px 0px 4px 4px;
+    padding: 12px 0;
+}
+.label-text{
+    width: 100%;
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    margin-left: 15px;
+    font-size: 1.125em;
+    line-height: 25px;
+    color: #4F4F4F;
+}
+.slider {
+    display: inline-block;
+    width: 28px;
+    height: 13px;
+    border-radius: 34px;
+    margin-left: 30px;
+    background: #979797;
+  }
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    right: 66px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+}
+input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+
 .football-video{
     position: absolute;
+    width: 360px;
+    height: 218.06px;
     z-index: 2;
   top: 235px;
    left: 200px;
@@ -132,7 +232,7 @@ margin-bottom: 50px;
 .football-info{
     max-width: 460px;
     max-height: 592px;
-    margin-left: auto;
+   margin-left: 110px;
     position: relative;
     z-index: 2;
 }
@@ -181,27 +281,75 @@ padding-top: 217px;
 .phone{
     min-height: 513px;
     position: relative;
-    margin-top: 34px;
-    margin-right: 49px;
-}
-.basket{
-    display: none;
-}
-.bell{
-    position: absolute;
-    top: 73px;
-    left: 17px;
-}
-.enter-app{
-    position: absolute;
-    top: 406px;
-    left: 267px
+    top: 10%;
+    right: 7%;
 }
 .dot{
     position: absolute;
-    bottom: 112px;
-    left: -80px;
+    top: 78%;
+    left: -33%;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 15px solid #FFF;
+    background: #00ADEE;
+    box-shadow: 0px 3.13793px 15.6897px rgba(0, 0, 0, 0.25), 0px 2.51034px 6.27586px rgba(51, 51, 51, 0.1);  
 }
+.dot:hover{
+    border: 15px solid #00ADEE;
+    background:   #FFF;
+}
+.empty-ellipse{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    top: 19%;
+    left: 4%;
+    background: #FFFFFF;
+    box-shadow: 0px 3.13793px 15.6897px rgba(0, 0, 0, 0.25), 0px 2.51034px 6.27586px rgba(51, 51, 51, 0.1);
+}
+.bell{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+.number-message{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: rgb(27, 198, 221);
+    color: white;
+    text-align: center;
+    left: 50%;
+    top: 20%;
+}
+.number-message:hover{
+    background-color: yellow;
+    color: black;
+}
+.empty-ellipse-2{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    bottom: 15%;
+    right: 3%;
+    background: #FFFFFF;
+    box-shadow: 0px 3.13793px 15.6897px rgba(0, 0, 0, 0.25), 0px 2.51034px 6.27586px rgba(51, 51, 51, 0.1);
+}
+.enter{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+.basket,
+.basket-message{
+    display: none;
+}
+
+
  /*Section 3*/
  .section-3{
      
@@ -279,7 +427,7 @@ padding-top: 217px;
     line-height: 37px;
     color: #333333;
     text-align: center;
-   margin-bottom: 62px;
+   margin-bottom: 55px;
  }
  .users-say{
     
@@ -321,26 +469,78 @@ padding-top: 217px;
 .Udoma{
     margin-right: -200px;
 } 
-.ellipse-arrow{
-   width: 90%;
+.control-left{
+    width: 14%;
+    height: 37%;
     position: absolute;
     display: flex;
-    justify-content: space-between;
-    margin-left: 105px;
-    top: 230px;
+    justify-content: center;
+    align-items: center; 
+    
+    left:26px;
+    top:156px;
     z-index: 10;
-    cursor: pointer;
 }
-.arrow-right{
+.left-ellipse{
     position: absolute;
-    top: 23px;
-    right: 29px;
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    border: 1px solid #00ADEE;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1), 0px 10px 10px rgba(0, 0, 0, 0.25);
 }
 .arrow-left{
-    position: absolute; 
-    top: 23px;
-    left: 29px; 
-    transform: rotate(180deg);
+    width: 7px;
+    height: 7px;
+    border-bottom: 3px solid #00ADEE;
+    border-left: 3px solid #00ADEE;
+    transform: rotate(46deg);
+}
+.control-right{
+    width: 14%;
+    height: 37%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+    right:5px;
+    top:156px;
+    z-index: 11;
+}
+.right-ellipse{
+    position: absolute;
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    border: 1px solid #00ADEE;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    cursor: pointer;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1), 0px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.arrow-right{
+    width: 7px;
+    height: 7px;
+    border-top: 3px solid #00ADEE;
+    border-right: 3px solid #00ADEE;
+    transform: rotate(46deg);
+}
+.right-ellipse:hover,
+.left-ellipse:hover{
+    background: rgba(90, 148, 255, 0.671);
+}
+.right-ellipse:active,
+.left-ellipse:active{
+    background: rgba(18, 89, 221, 0.671);
 }
 .circles{
     display: flex;

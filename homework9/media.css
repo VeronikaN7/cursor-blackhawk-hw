@@ -58,15 +58,48 @@
     
     
 }
-.football-schedule{
-    max-width: 300px;
-    left: -53px;
-    top: 50px;
+.football-images{
+    width: 100%;
+   margin-left: 65px;
+}
+.schedule{
+    width: 247px;
+    height: 149px;
+    top: -80px;
+    left: -50px;
+}
+.switch{
+    padding: 5px 0;
+}
+
+.label-text,
+.schedule-type,
+.schedule-text,
+.schedule-time,
+.schedule-team{
+    margin-left: 5px;
+    font-size: 0.9em;
+}
+.slider{
+    margin-left: 0;
+}
+.slider:before{
+    right: 27px;
+    bottom: 4px;  
 }
 .football-video{
-    max-width: 247px;
-    top:180px;
-   left: 67px;
+    width: 247px;
+    height: 149px;
+    top: 32px;
+    left: 30px;
+}
+.arsenal{
+    right: 20px;
+}
+.arsenal,
+.chelsea{
+    width: 49px;
+    height: 57px;
 }
 
 .section-2{
@@ -89,22 +122,33 @@
     padding-top: 62px;
 }
 .phone{
-    max-height: 201px;
-    margin-top: 32px;
-    margin-right: 10px;
-}
-.enter-app{
-    display: none;
+    top: 7%;
+    right: 3%;
 }
 .basket{
+    display: block;
     position: absolute;
-    display: inline-block;
-    top: 330px;
-    left: 215px
+    top: 32%;
+    left: 32%;
 }
-.bell{
+.basket-message{
+    display: inline;
     position: absolute;
-    left: 2px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: rgb(30, 240, 118);
+    color: white;
+    text-align: center;
+    left: 55%;
+    top: 20%;
+}
+.basket-message:hover{
+    background: rgb(47, 231, 201);
+    color: black;
+}
+.enter{
+    display: none;
 }
 .dot{
     display: none;
@@ -146,15 +190,7 @@ text-align: center;
     min-width: 180px;
     background: none;
 }
-.ellipse-arrow{
-    min-width: 360px;
-    margin: 0;
-    right: 0px;
-    top: 215px;
-    transform: rotate(180deg);
-}
-.arrow-right,
-.ellipse-hidden{
+.control-left{
     display: none;
     }
 .section-5{
@@ -217,10 +253,7 @@ margin-bottom: 30px;
 
 
 @media (min-width:450px) and (max-width:720px){
-.football-images{
-    flex-basis: 720px;
-    margin-left: 150px;
-}
+
 .header{
     background: #F4F6F9;
     padding:0 ;
@@ -279,15 +312,34 @@ margin-bottom: 30px;
     
     
 }
-.football-schedule{
-    max-width: 300px;
-    left: -140px;
-    top: 50px;
+.football-images{
+    width: 100%;
+   margin-left: 90px;
+}
+.schedule{
+    width: 297px;
+    height: 160.06px;
+    top: -80px;
+    left: -60px;
+}
+.switch{
+    padding: 10px 0;
+}
+.label-text{
+    margin-left: 5px;
+}
+.slider{
+    margin-left: 0;
+}
+.slider:before{
+    right: 27px;
+    bottom: 4px;  
 }
 .football-video{
-    max-width: 247px;
-    top:180px;
-   left: 0;
+    width: 297px;
+    height: 160.06px;
+    top: 37px;
+    left: 60px;
 }
 
 .section-2{
@@ -308,23 +360,7 @@ margin-bottom: 30px;
 .interface-title{
     padding-top: 62px;
 }
-.phone{
-    max-height: 201px;
-    margin-top: 32px;
-    margin-left: 35px;
-}
-.enter-app{
-    display: none;
-}
-.bell{
-    left: 23px;
-}
-.basket{
-    position: absolute;
-    display: inline-block;
-    top: 330px;
-    left: 250px
-}
+
 .section-3{
     width: 100%;
     max-width: 720px;
@@ -334,6 +370,10 @@ margin-bottom: 30px;
 }
 .dot{
     display: none;
+}
+.phone{
+    top: 10%;
+    right: 2%;
 }
 .feature{
     color: black;
@@ -365,17 +405,8 @@ text-align: center;
     min-width: 180px;
     background: none;
 }
-.ellipse-arrow{
-    min-width: 360px;
-    margin: 0;
-    right: 0px;
-    top: 215px;
-    transform: rotate(180deg);
-}
-.arrow-right,
-.ellipse-hidden{
-    display: none;
-    }
+
+
 .section-5{
     min-height: 409px;
 }
@@ -433,6 +464,9 @@ margin-bottom: 30px;
     .section-2{
         background-repeat: no-repeat;
         background-position: right;
+    }
+    .phone{
+        right: 2%;
     }
     .phone{
         margin-right: 20px;
