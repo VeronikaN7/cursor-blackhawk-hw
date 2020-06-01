@@ -101,7 +101,9 @@
     width: 49px;
     height: 57px;
 }
-
+input:checked + .slider:before{
+transform: translateX(19px);
+}
 .section-2{
     max-width: 720px;
     background: url(./images/ellipses.png) no-repeat; 
