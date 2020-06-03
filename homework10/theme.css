@@ -55,18 +55,48 @@
        list-style-type: none;
        padding-inline-start: 0;
         }
+
+
     
-        @media (max-width: 720px){
+       
+        @media (max-width: 840px){
+            .name{
+                width: 90%;
+            }
+            .number-posts{
+                margin: 10px 0;
+            }
+            .profile{
+                width: 85%;
+                justify-content: center;
+            }
             .navbar-form{
                 display: none;
             }
             .navbar{
-                width: 50%;
+                width: 30%;
             }
-            .profile{
+            .insta-story {
+                padding-top: 36px;
+                padding-right: 0;
+            }
+            .photo-section{
+                margin-top: 0;
                 margin-left: 10px;
-                
             }
+            .insta-info{
+                margin-left: 15px;
+                margin-top: 15px;
+            }
+        }
+
+        @media (max-width: 400px){
+            .navbar-form{
+                display: none;
+            }
+            .navbar{
+                width: 45%;
+            }  
             .name{
                 min-width: 360px;
             }
@@ -74,6 +104,7 @@
                 min-width: 350px;
                 margin-right: 10px;
                 margin-top: 20px;
+                margin-left: 35px;
             }
             .insta-story{
                 padding-top: 26px;
@@ -88,5 +119,38 @@
             }
             .charter-item{
                 margin: 0 40px;
+            }
+        }
+
+
+
+        @media (max-width: 320px){
+            .name{
+                min-width: 320px;
+            }
+            .number-posts{
+                max-width: 320px;
+            }
+            .navbar{
+                width: 55%;
+            }  
+            .insta-info{
+                width: 97%;
+                max-width: 320px;
+                min-width: 0;
+                margin-left: 0;
+            }
+            .insta-story{
+                width: 100%;
+            }
+            .charter-item {
+                margin: 0 30px;
+            }
+            
+            .profile-text{
+                max-width: 300px;
+            }
+            .profile{
+                width: 100%;
             }
         }

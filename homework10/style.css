@@ -39,8 +39,9 @@ color: rosybrown;
 }
 .profile{
     margin: 0 auto;
-    max-width: 64%;
+    width: 64%;
     padding-top: 29px;
+    justify-content: space-between;
 }
 .name{
     width: 75%;
@@ -162,8 +163,9 @@ color: rosybrown;
     border-top: 1px solid #262626;
     color: #262626;
 }
+    
  .col-4-auto{
-   margin: 0 auto;
+  margin: 0 auto;
    margin-bottom: 25px;
 }
 
