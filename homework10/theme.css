@@ -1,0 +1,92 @@
+    header{
+        width: 70%;
+        margin: 0 auto;
+        padding: 8px 0;
+        border-bottom:1px solid #DBDBDB;;
+    }
+    h2,
+    h3,
+    p{
+        margin-bottom: 0;
+    }
+    .btn:focus,
+    .btn:active{
+    outline: none !important;
+    box-shadow: none !important;
+    }
+.form-control{
+    background: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    box-sizing: border-box;
+    border-radius: 3px;
+    }
+    .navbar{
+    width: 17%;
+    }
+    .navbar-form{
+    align-items: center;
+    }
+    .form-group{
+    margin-bottom: 0;
+    outline: none;
+    }
+    .form-control-sm{
+        outline: none !important;
+    box-shadow: none !important;
+    border: 1px solid #DBDBDB;
+    text-align: center;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 0 20px;
+    color: #8F8F8F;
+    background: url(./images/search.svg) no-repeat 30% 50%;
+    }
+    .btn-primary:hover {
+        background-color: none;
+    }
+    a{
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 21px;
+    color: none;
+    text-decoration: none !important;
+    }
+    ul{
+       list-style-type: none;
+       padding-inline-start: 0;
+        }
+    
+        @media (max-width: 720px){
+            .navbar-form{
+                display: none;
+            }
+            .navbar{
+                width: 50%;
+            }
+            .profile{
+                margin-left: 10px;
+                
+            }
+            .name{
+                min-width: 360px;
+            }
+            .insta-info{
+                min-width: 350px;
+                margin-right: 10px;
+                margin-top: 20px;
+            }
+            .insta-story{
+                padding-top: 26px;
+                width: 86%;
+            }
+            .photo-section{
+                margin-top: 0;
+            }
+            .charter{
+                width: 100%;
+                
+            }
+            .charter-item{
+                margin: 0 40px;
+            }
+        }

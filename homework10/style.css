@@ -1,0 +1,171 @@
+body{
+    height: 100vh;
+    background-color: #fafafa;
+    color: #262626;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    margin-bottom:0 ;
+}
+
+.color-icon:hover{
+color: rosybrown;
+
+}
+.arrow-message{
+    position: relative;
+}
+.message{
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    top: 12%;
+    left: 31%;
+    text-align: center;
+    font-size: 12px;
+    line-height: 15px;
+    border-radius: 50%;
+    background: rgb(211, 28, 28);
+    color: seashell;
+    z-index: 5;
+}
+.search{
+   background: url(./images/search.svg) no-repeat 30% 50%; 
+   
+}
+.insta-info{
+    width: 67%;
+    min-height: 225px;
+}
+.profile{
+    margin: 0 auto;
+    max-width: 64%;
+    padding-top: 29px;
+}
+.name{
+    width: 75%;
+    
+}
+.name-profile{
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+}
+.follow{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center; 
+    padding: 5px 26px;
+    margin-left: 26px;
+}
+.arrow{
+    width: 33px;
+    height: 29px;
+    position: relative;
+    margin-left: 8px;
+}
+.arrow-down{
+    border: 5px solid transparent; 
+    border-top: 5px solid white;
+    position: absolute;
+    left: 11px;
+    top: 11px;
+}
+.all-circle{
+    width: 20px;
+    margin-left: 16px;
+    cursor: pointer;
+}
+.circle{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #262626;
+}
+.number-posts{
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #262626;
+    
+}
+.post:not(:nth-child(3)){
+    margin-right: 33px;
+}
+.name-text{
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 21px;
+}
+.text-p{
+    font-size: 17px;
+    line-height: 25px;
+}
+.link-color{
+    color: #133768;
+}
+.insta-story{
+    width: 64%;
+    padding-top: 56px;
+    
+}
+.story-item{
+    margin-right: 34px;
+    position: relative;
+}
+.story-name{
+    padding-top: 11px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 17px;
+    color: #262626;
+}
+.ellipse{
+    position: absolute;
+    top: -3%;
+    left: -5%;
+    width: 87px;
+    height: 87px;
+    border-radius: 50%;
+    border: 1px solid #DBDBDB;
+}
+.charter ul{
+    margin: 0 auto;
+}
+.photo-section{
+    margin-top: 55px;
+}
+.charter{
+     margin-bottom: 9px;
+    border-top: 1px solid #DBDBDB;
+}
+.charter-item{
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    margin-right: 64px;
+    padding: 9px 0;
+}
+.charter-color{
+     color: #8F8F8F;
+}
+.charter-color:hover{
+    color: #262626;
+}
+.active{
+    padding-top: 9px;
+    border-top: 1px solid #262626;
+    color: #262626;
+}
+ .col-4-auto{
+   margin: 0 auto;
+   margin-bottom: 25px;
+}
+
+
+
