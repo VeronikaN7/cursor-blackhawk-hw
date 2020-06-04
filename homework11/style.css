@@ -1,0 +1,193 @@
+body{
+    background: silver;
+    width: 100%;
+    height: 100%;
+    
+}
+.box{
+    width: 200px;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 5%;
+    background: black;
+    padding: 0 10px;
+    position: relative;
+    
+}
+.line-1{
+    opacity: 0;
+    position: absolute;
+    top: -30px;
+    right: 3px;
+}
+.line-1,
+.line-2,
+.line-3{
+    width: 190px;
+    height: 5px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    transition-property: all;
+}
+
+.line-2{
+    transform: rotate(130deg);
+    position: absolute;
+    top: 68px;
+    transition-property: all;
+}
+.line-3{
+    transform: rotate(230deg);
+    position: absolute;
+    bottom: 122px;
+    transition-property: all;
+}
+.line:not(:nth-child(1)){
+    margin-top: 50px;
+}
+.short{
+    width: 50px;
+    background-color: #fff;
+    
+}
+.long{
+    width: 120px;
+    background-color: #fff;
+}
+input:hover~ .line-2{
+    box-shadow: 0 0 10px 7px rgb(206, 247, 57);
+}
+input:hover~ .line-3{
+    box-shadow: 0 0 10px 7px rgb(243, 40, 40);
+}
+input:checked ~ .line-1{
+    opacity: 100%;
+    transition-duration: 2s;
+    transition-delay: 1s;
+    transition-timing-function: ease-in-out;
+    top: 0;
+    right: 19px;
+}
+input:checked ~ .line-2{
+    box-shadow: none;
+    transition-duration: 3s;
+    transition-delay: 1s;
+    transform: rotate(180deg) ;
+    
+}
+input:checked ~ .line-3{
+    box-shadow: none;
+    transition-delay: 1s;
+    transition-duration: 3s;
+    transform: rotate(180deg) translateY(-60px);
+}
+input[type="checkbox"]{
+    width: 50%;
+    height: 50%;
+    margin: 40px 50px;
+    cursor: pointer;
+    z-index: 5;
+    position: relative;
+}
+
+.container-ball{
+    margin: 40px auto;
+    width: 800px;
+    height: 250px;
+   flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.ball{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: rgb(0, 0, 0);
+    
+}
+.ball-1{
+    background-color: #2F4F6D;
+    animation-name: firstball;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.ball-2,
+.shadow-2{
+    background-color: rgb(58, 99, 138);
+}
+.ball-3,
+.shadow-3{
+    background: linear-gradient( to right, rgba(58, 99, 138, 0.829) 20%, rgba(243, 35, 12, 0.76))
+}
+.ball-4,
+.shadow-4{
+    background: rgba(243, 35, 12, 0.76);
+}
+.ball-5,
+.shadow-5{
+    background: linear-gradient( to right, rgba(243, 35, 12, 0.76) 10%, rgba(155, 20, 5, 0.76));
+}
+.ball-6,
+.shadow-6{
+    background: linear-gradient( to right, rgba(155, 20, 5, 0.76) 50%, rgba(82, 17, 9, 0.938));
+}
+.ball-7{
+    background:rgba(82, 17, 9, 0.938);
+    animation-name: lastball;
+    animation-duration: 0.5s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.shadow-1{
+    background-color: #2F4F6D;
+    animation-name: firstshadow;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.shadow-7{
+    background:rgba(82, 17, 9, 0.938);
+    animation-name: lastshadow;
+    animation-duration: 0.5s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.shadow{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.sh{
+    width: 100px;
+    height: 5px;
+    background-size: 100% 5px;
+    border-radius: 5px;
+    opacity: 20%;
+}
+
+@keyframes firstball{
+    100%{
+     transform:translateY(-100px) translateX(-160px);
+}
+}
+@keyframes lastball{
+    100%{
+        transform:translateY(-100px) translateX(160px);
+    }
+    }
+@keyframes firstshadow{
+    100%{
+        transform:translateX(-160px);
+     }
+    }
+@keyframes lastshadow{
+    100%{
+        transform:translateX(160px);
+    }
+    }   
