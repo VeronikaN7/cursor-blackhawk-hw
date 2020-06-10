@@ -1,0 +1,44 @@
+/*sections*/
+.section-part{
+    padding-bottom: 10%;
+}
+.section-text{
+    padding-top: 5%;
+    padding-left: 5%;
+}
+.click-button{
+    margin-left: auto;
+    padding-left: 5.5%;
+}
+
+@media (max-width:992px){
+    .section-text{
+        padding-top: 0;
+        padding-left: 13%;
+        padding-right: 0;
+    }
+    .click-button{
+        margin-left: auto;
+        padding-left: 13.5%;
+    }
+}
+@media (max-width: 768px){
+    .section-text{
+        order: 0;
+    }
+    .image{
+        order: 1;
+    }
+    .click-button{
+        margin: 0 auto;
+        margin-bottom: 5%;
+    }
+}
+
+@media (max-width: 576px){
+    .click-button{
+        margin: o auto;
+        padding-left: 0;
+        justify-content: center;
+    }
+}

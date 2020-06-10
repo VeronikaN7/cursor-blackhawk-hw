@@ -1,0 +1,126 @@
+- var text_1 = "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus.";
+- var text_2 = "mus. Donec quam fells, ultricies nec, pelientesque eu, pretium quis, sem. Nulla consequat massa quis enim.";
+- var icon = "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aenean commodo ligula eget dolor.";
+- var title_icon = "Title Goes Here";
+- var section_title = "Light, Fast & Powerful";
+- var images = ["./img/flower-girl.png", "./img/phone-flamingo.png", "./img/email-girl.png"];
+mixin test(path,description)
+    section
+        .container
+            .row.section-part.d-flex
+                .image.col-md-6.col-sm-12
+                    img(src= path, alt= description)
+                .section-text.col-md-6.col-sm-12
+                    h3.title-1= section_title
+                    .general-p
+                        p.p-1.col-11= text_1
+                        p.p-1.col-11= text_2
+                if path == "./img/email-girl.png", description == "flower"
+                        .click-button.col-6.d-flex
+                            button.btn.click Click me
+                 
+                         
+doctype html
+head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    title Pug&Sass
+    link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous")
+    link(rel="stylesheet", href="css/style.css")
+    link(rel="stylesheet", href="theme.css")
+    link(rel="stylesheet", href="https://fonts.google.com/specimen/Roboto?sidebar.open&selection.family=Roboto:wght@300;400;700")
+body
+    header.header
+        .container
+            .row.align-items-center.d-flex.flex-wrap.header-padding
+                .col-lg-3.col-md-4.col-sm-8.header-menu
+                    ul.d-flex.flex-row.justify-content-between
+                        li 
+                            a(href="#").nav-link Home
+                        li
+                            a(href="#").nav-link About
+                        li
+                            a(href="#").nav-link Contact
+                .col-lg-6.col-md-6.d-flex.justify-content-center.img-brend
+                    a(href="#").nav-brend
+                        img(src="./img/brend.svg", alt="brend-name")
+                .col-lg-3.col-12.d-flex.button-buy
+                    button(type="button" name="button-buy").btn.btn-sm.buy-now Buy Now
+        .container
+            .row
+                .intro-text.col-lg-7.col-md-9
+                    .header-text
+                        h2.introduce Introduce Your Product Quickly & Effectively
+                        p.header-p= text_1
+                        p.header-p= text_2
+                    .header-button.d-flex.flex-wrap
+                        button(type="button" name="button-purchase").btn.btn-lg.purchase Purchase UI Kit
+                        button(type="button" name="button-learn-more").btn.btn-lg.learn-more Learn More
+            
+    section
+        .container
+            .row.align-item-center.section-part
+                .section-1-content.col-lg-6.col-md-12
+                    .text
+                        h3.title-1= section_title
+                        .general-p
+                            p.p-1.col-11= text_1
+                            p.p-1.col-11= text_2
+                    .icon-blocks.d-flex
+                        .icon-block
+                            img(src="./img/icon.svg", alt="icon").icon
+                            h4.title-icon= title_icon
+                            p.icon-text= icon
+                        .icon-block
+                            img(src="./img/icon.svg", alt="icon").icon
+                            h4.title-icon= title_icon
+                            p.icon-text= icon
+                .image-section
+                    img(src="./img/section-1.png", alt="background-girl-and-phone")
+    +test(images[0], "girl")
+    +test(images[1], "phone")
+    +test(images[2], "flower")       
+    section.section-2
+        .container.col-lg-6
+            .row.d-flex.justify-content-center.section-2-content
+                .section-2-text
+                    h3.title-2 A Price To Suit Everyone
+                    p.p-1.general-p= text_1
+                .d-flex.flex-column
+                    .price
+                        p.money 40$
+                        p.money-text UI Design Kit
+                    .purchase-block
+                        p.purchase-p See, One price. Simple
+                        button(type="button").btn.purchase-now Purchase Now
+    footer
+        .container
+            .row.d-flex.flex-wrap.align-items-center.footer-info
+                .col-md-3.col-sm-6.company-inf
+                    p.company ©2020Yourcompany
+                .col-md-6.d-flex.justify-content-center.nav-brend
+                    a(href="#")
+                        img(src="./img/brend.svg", alt="brend-name")
+                .col-md-3.col-sm-6.d-flex.bth-purchase
+                    button(type="button").btn.purchase-now-footer Purchase Now
+            .row.align-items-center.d-flex.flex-wrap.footer-padding
+                .col-lg-3.col-md-4.col-sm-8.footer-nav
+                    ul.d-flex.flex-row.justify-content-around
+                        li 
+                            a(href="#").nav-link Home
+                        li
+                            a(href="#").nav-link About
+                        li
+                            a(href="#").nav-link Contact
+                .col-lg-3.col-md-4.col-sm-8.d-flex.align-items-center.justify-content-around
+                    a(href="#").social
+                        img(src="./img/fb.svg", alt="facebook-icon")
+                    a(href="#").social
+                        img(src="./img/in.svg", alt="linkedin-icon")
+                    a(href="#").social
+                        img(src="./img/tw.svg", alt="twitter-icon")
+                    a(href="#").social
+                        img(src="./img/yt.svg", alt="you-tube-icon")
+                    a(href="#").social
+                        img(src="./img/inst.svg", alt="instagram-icon")

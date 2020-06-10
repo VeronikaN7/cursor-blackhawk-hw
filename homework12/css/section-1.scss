@@ -1,0 +1,34 @@
+/*section-1*/
+
+.icon-blocks{
+    margin-top: 10%;
+    .icon-block{
+        max-width: 225px;
+        .title-icon{
+        margin: 10px 0 4px;
+        font-size: 0.89em;
+        font-weight: bold;
+        line-height: 26px;
+        color: #091133;
+        }
+    .icon-text{
+        font-size: 0.67em;
+        line-height: 18px;
+        color: #5D6970;
+        }
+    }
+    .icon-block:first-child{
+            margin-right: 30px;
+    }
+}
+.icon-text{
+    font-size: 12px;
+    line-height: 18px;
+    color: #5D6970;
+}
+
+@media (max-width:992px){
+    .image-section{
+        margin: 0 auto;
+    }
+}

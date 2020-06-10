@@ -1,0 +1,72 @@
+/*footer*/
+footer{
+    background: rgb(210, 218, 247);
+    width: 100%;
+}
+.footer-info{
+    padding: 5% 0;
+    border-bottom: 1px solid #CDD1D4;;
+}
+.company{
+    color: #939EA4;
+    font-weight: 500;
+    font-size: 0.78em;
+    line-height: 24px;
+}
+.footer-padding{
+    padding: 2% 0;
+    justify-content: space-between;
+    
+}
+.purchase-now-footer{
+    font-size: 12px;
+}
+.btn-purchase{
+    justify-content: end;
+}
+
+
+
+@media (max-width:768px){
+    .footer-info{
+        justify-content: space-between;
+    }
+    .nav-brend{
+        order: 0;
+    }
+    .bth-purchase{
+        order: 2;
+    }
+    .company-inf{
+        order: 1;
+    }
+    .footer-padding{
+        justify-content:center;
+        }
+}
+@media (max-width: 576px){
+    .company{
+        margin: 3% 0;
+    }
+    .purchase-now-footer{
+        margin-left: 24%;
+        margin-top: 3%;
+    }
+    .footer-padding{
+    justify-content:center;
+    }
+    .footer-nav,
+    .social-media{
+        max-width:360px;
+    }
+    .company-inf{
+        text-align: center;
+    }
+    .btn-purchase{
+        justify-content: center;
+    }
+    .purchase-now-footer{
+        margin: 0 auto;
+        justify-content: center;
+    }
+}
