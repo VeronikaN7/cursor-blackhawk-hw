@@ -29,6 +29,15 @@ color: rosybrown;
     color: seashell;
     z-index: 5;
 }
+
+.check,
+.nickname,
+.menu-burger{
+    display: none;
+}
+.header-content{
+    justify-content: space-around;
+}
 .search{
    background: url(./images/search.svg) no-repeat 30% 50%; 
    
@@ -163,10 +172,11 @@ color: rosybrown;
     border-top: 1px solid #262626;
     color: #262626;
 }
-    
- .col-4-auto{
+ .insta-photo{
   margin: 0 auto;
-   margin-bottom: 25px;
+}
+.insta-photo img{
+    margin-bottom: 15px;
 }
 
 
