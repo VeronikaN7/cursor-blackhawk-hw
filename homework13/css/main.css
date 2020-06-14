@@ -345,8 +345,26 @@ button {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+    align-items: center;
 }
-
+.reason1{
+        width: 55px; 
+        height: 50px;
+        background: url('../img/css_sprites.png') -8px -10px;
+}
+.reason2{
+    width: 55px; 
+    height: 45px;
+    background: url('../img/css_sprites.png') -8px -64px;
+}
+.reason3{
+    width: 55px; height: 50px;
+    background: url('../img/css_sprites.png') -8px -128px;
+}
+.reason4{
+    width: 55px; height:63px;
+    background: url('../img/css_sprites.png') -8px -198px;
+}
 .reasons .reason .square img {
     width: 45px;
     height: auto;
@@ -530,7 +548,23 @@ button {
     margin-bottom: 50px;
     clear: both;
 }
-
+.adv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.advantage1{
+    width: 55px; height: 60px;
+    background: url('../img/css_sprite2.png') -10px -10px;
+}
+.advantage2{
+    width: 55px; height: 60px;
+    background: url('../img/css_sprite2.png') -85px -10px;
+}
+.advantage3{
+    width: 64px; height: 60px;
+    background: url('../img/css_sprite2.png') -156px -10px;
+}
 .advantages .adv-title {
     margin-top: 15px;
     font-family: "HelveticaNeueBold";
